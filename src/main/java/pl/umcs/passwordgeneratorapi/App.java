@@ -1,4 +1,4 @@
-package pl.umcs.java8desktop;
+package pl.umcs.passwordgeneratorapi;
 
 
 public class App {
