@@ -1,8 +1,11 @@
-package pl.umcs.passwordgeneratorapi;
+package pl.umcs.passwordgeneratorimplementation;
+
+import pl.umcs.passwordgeneratorapi.PasswordGeneratorParameters;
+import pl.umcs.passwordgeneratorapi.PasswordGeneratorService;
 
 import java.util.List;
 
-public class passwordGeneratorImplementation implements PasswordGeneratorService {
+public class PasswordGeneratorImplementation implements PasswordGeneratorService {
 
     public String generate(PasswordGeneratorParameters passwordGeneratorParameters) {
         return null;
@@ -10,5 +13,6 @@ public class passwordGeneratorImplementation implements PasswordGeneratorService
 
     public List<String> generate(PasswordGeneratorParameters passwordGeneratorParameters, int count) {
         return null;
+
     }
 }
