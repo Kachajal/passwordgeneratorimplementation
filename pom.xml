@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>pl.umcs</groupId>
-    <artifactId>passwordgeneratorapi</artifactId>
+    <artifactId>passwordgeneratorimplementation</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
@@ -32,6 +32,11 @@
             <artifactId>junit-jupiter</artifactId>
             <version>${junit.jupiter.version}</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>pl.umcs</groupId>
+            <artifactId>passwordgeneratorapi</artifactId>
+            <version>1.0.0</version>
         </dependency>
     </dependencies>
 
